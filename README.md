@@ -1,7 +1,7 @@
 # pwa-sidemenu
 Ionic 4 PWA template
 
-Based on Ionic 4 sidemenu template and configured as a PWA using workbox.
+Based on Ionic 4 sidemenu template and configured as a PWA using <a href="https://developers.google.com/web/tools/workbox/">Workbox.</a>
 
 <hr>
 
