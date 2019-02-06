@@ -1,7 +1,7 @@
 # pwa-sidemenu
 Ionic 4 PWA template
 
-Based on Ionic 4 sidemenu template and configured as a PWA using <a target="_blank" href="https://developers.google.com/web/tools/workbox/">Workbox.</a><br>
+Based on Ionic 4 sidemenu template and configured as a PWA using <a href="https://developers.google.com/web/tools/workbox/" target="_blank" >Workbox.</a><br>
 Google Workbox is a set of libraries and Node modules that make it easy to cache assets and take full advantage of features used to build Progressive Web Apps.
 
 <hr>
