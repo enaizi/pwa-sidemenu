@@ -20,13 +20,13 @@ Based on Ionic 4 sidemenu template and configured as a PWA using workbox.
 <ul>
   <li>Firebase authentication (Facebook/Google)</li>
   <li>CRUD using Firestore</li>
-  <li>Consume external data using httpClient</li>
+  <li>External data using httpClient</li>
   <li>Camera </li>
   <li>Geolocation using Capacitor</li>
   <li>InAappBrowser using Capacitor</li>
   <li>WebShare using Capacitor</li>
   <li>Clipboard using Capacitor</li>
 </ul>
-<h4>See it in Action</h4>
+<h4>Get your Ionic 4 PWA development up to speed !!</h4>
 <p><a href="https://ionic-pwa-template.firebaseapp.com">https://ionic-pwa-template.firebaseapp.com</a></p>
 
