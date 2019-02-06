@@ -12,9 +12,9 @@ Based on Ionic 4 sidemenu template and configured as a PWA using workbox.
 <pre><code>ionic serve</code></pre>
 
 <h3>Deploy to Firebase hosting</h3>
-<p>Follow the instructions provided.</p>
-<p>Once deployed, you will have a fully working PWA (with a score of 100 on Lighthouse).</p>
-
+<p>Follow the instructions provided.<br>
+  Once deployed, you will have a fully working PWA (with a score of 100 on Lighthouse).</p>
+<hr>
 <h3>See it in action</h3>
 <p>This is a premium template with working example of :</p>
 <ul>
