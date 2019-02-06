@@ -17,14 +17,14 @@ Google Workbox is a set of libraries and Node modules that make it easy to cache
   Once deployed, you will have a fully working PWA (with a score of 100 on Lighthouse).</p>
 <hr>
 <h3>See it in action</h3>
-<p>This is a premium template with working example of :</p>
+<p>This is a premium template with working examples of :</p>
 <ul>
   <li>Firebase authentication (Facebook/Google)</li>
   <li>CRUD using Firestore</li>
   <li>External data using httpClient</li>
   <li>Camera </li>
 </ul>
-We also added example on using <a target="_blank" href="https://capacitor.ionicframework.com/">Capacitor</a> with Ionic.<br>
+We also added examples on using <a target="_blank" href="https://capacitor.ionicframework.com/">Capacitor</a> with Ionic.<br>
 Capacitor is the Native Bridge for Cross-Platform Web Apps.
 <ul>
   <li>Geolocation</li>
