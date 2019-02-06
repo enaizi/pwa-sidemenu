@@ -1,7 +1,7 @@
 # pwa-sidemenu
 Ionic 4 PWA template
 
-Based on Ionic 4 sidemenu template and configured as a PWA using <a href="https://developers.google.com/web/tools/workbox/">Workbox.</a><br>
+Based on Ionic 4 sidemenu template and configured as a PWA using <a target="_blank" href="https://developers.google.com/web/tools/workbox/">Workbox.</a><br>
 Google Workbox is a set of libraries and Node modules that make it easy to cache assets and take full advantage of features used to build Progressive Web Apps.
 
 <hr>
@@ -24,7 +24,7 @@ Google Workbox is a set of libraries and Node modules that make it easy to cache
   <li>External data using httpClient</li>
   <li>Camera </li>
 </ul>
-We also added example on using <a href="https://capacitor.ionicframework.com/">Capacitor</a> with Ionic.<br>
+We also added example on using <a target="_blank" href="https://capacitor.ionicframework.com/">Capacitor</a> with Ionic.<br>
 Capacitor is the Native Bridge for Cross-Platform Web Apps.
 <ul>
   <li>Geolocation</li>
