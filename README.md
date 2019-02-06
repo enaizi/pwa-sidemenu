@@ -12,7 +12,7 @@ Based on Ionic 4 sidemenu template and configured as a PWA using workbox.
 <pre><code>ionic serve</code></pre>
 
 <h3>Deploy to Firebase hosting</h3>
-<p>Follow the instructions provided.</p><br>
+<p>Follow the instructions provided.</p>
 <p>Once deployed, you will have a fully working PWA (with a score of 100 on Lighthouse).</p>
 
 <h3>See it in action</h3>
@@ -20,7 +20,7 @@ Based on Ionic 4 sidemenu template and configured as a PWA using workbox.
 <ul>
   <li>Firebase authentication (Facebook/Google)</li>
   <li>CRUD using Firestore</li>
-  <li>Consume external data using httpClient<li>
+  <li>Consume external data using httpClient</li>
   <li>Camera </li>
   <li>Geolocation using Capacitor</li>
   <li>InAappBrowser using Capacitor</li>
