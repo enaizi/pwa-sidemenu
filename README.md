@@ -24,7 +24,8 @@ Google Workbox is a set of libraries and Node modules that make it easy to cache
   <li>External data using httpClient</li>
   <li>Camera </li>
 </ul>
-We also added example on using <a href="https://capacitor.ionicframework.com/">Capacitor</a> with Ionic.
+We also added example on using <a href="https://capacitor.ionicframework.com/">Capacitor</a> with Ionic.<br>
+Capacitor is the Native Bridge for Cross-Platform Web Apps.
 <ul>
   <li>Geolocation</li>
   <li>InAappBrowser</li>
