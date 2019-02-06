@@ -10,35 +10,141 @@
 </ion-header>
 
 <ion-content>
+
+  <ion-row>
+
     <ion-card class="welcome-card">
       <ion-img src="/assets/shapes.svg"></ion-img>
       <ion-card-header>
-        <ion-card-subtitle>Get Started</ion-card-subtitle>
-        <ion-card-title>Welcome to Ionic</ion-card-title>
+        <ion-card-title>Welcome to Ionic PWA</ion-card-title>
       </ion-card-header>
       <ion-card-content>
-        <p>Now that your app has been created, you'll want to start building out features and components. Check out some of the resources below for next steps.</p>
+        <p>This is an enhanced version of the standard Ionic SideMenu template, configured for PWA using Workbox.</p>
+        <p>
+          Workbox is a set of libraries and Node modules that make it easy to cache assets and take full advantage of
+          features used to build Progressive Web Apps.
+        </p>
+
       </ion-card-content>
     </ion-card>
-    <ion-list lines="none">
-      <ion-list-header>
-        <ion-label>Resources</ion-label>
-      </ion-list-header>
-      <ion-item href="https://ionicframework.com/docs/">
-        <ion-icon slot="start" color="medium" name="book"></ion-icon>
-        <ion-label>Ionic Documentation</ion-label>
-      </ion-item>
-      <ion-item href="https://ionicframework.com/docs/building/scaffolding">
-        <ion-icon slot="start" color="medium" name="build"></ion-icon>
-        <ion-label>Scaffold Out Your App</ion-label>
-      </ion-item>
-      <ion-item href="https://ionicframework.com/docs/layout/structure">
-        <ion-icon slot="start" color="medium" name="grid"></ion-icon>
-        <ion-label>Change Your App Layout</ion-label>
-      </ion-item>
-      <ion-item href="https://ionicframework.com/docs/theming/basics">
-        <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
-        <ion-label>Theme Your App</ion-label>
-      </ion-item>
-    </ion-list>
+
+    <ion-card>
+
+      <ion-card-header>
+        <ion-card-title>
+          Want to add Facebook/Google login, connect to Firestore,
+          get external data using HttpClient, add Camera, Geolocation and many more?
+        </ion-card-title>
+
+        <ion-item href="https://ionic-pwa-template.firebaseapp.com">
+           <ion-label><u>Click here</u> to get Ionic PWA Template</ion-label>
+        </ion-item>
+      </ion-card-header>
+
+
+      <ion-list lines="none">
+        <ion-list-header>
+          <ion-label>Resources</ion-label>
+        </ion-list-header>
+        <ion-item href="https://firebase.google.com/docs/hosting/">
+          <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
+          <ion-label>Firebase Hosting</ion-label>
+        </ion-item>
+        <ion-item href="https://developers.google.com/web/tools/workbox/">
+          <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
+          <ion-label>Workbox </ion-label>
+        </ion-item>
+
+       
+      </ion-list>
+    </ion-card>
+
+  </ion-row>
+
+  <ion-row>
+
+    <ion-card>
+
+      <ion-card-header>
+        <ion-card-title>Getting Started</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ul>
+
+          <li>
+            <p>Make sure you have an up-to-date version of Node.js installed on your system. If you don't have Node.js
+              installed, you can install it from </p>
+            <ion-item href="https://nodejs.org/en/download/">
+              <ion-label>https://nodejs.org/en/download/</ion-label>
+            </ion-item>
+          </li>
+
+          <li>
+            <p>Unzip the Template file to your project directory</p>
+          </li>
+
+          <li>
+            <p>
+              Open a terminal window (Mac) or a command window (Windows),
+              and navigate to the project directory.</p>
+          </li>
+
+          <li>
+            <p>Install the server dependencies:</p>
+            <div class="p5 border-light">npm install</div>
+          </li>
+
+          <li>
+            <p>Test it in your browser.</p>
+            <div class="p5 border-light">ionic serve</div>
+          </li>
+
+          <li>
+            <p><b>If you follow all the Steps from 1 - 4, your apps will be displayed in your browser.</b></p>
+          </li>
+
+        </ul>
+
+      </ion-card-content>
+
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Deploy to Firebase Hosting</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ul>
+          <li>
+            <p>Open a terminal window (Mac) or a command window (Windows) and go to your project directory</p>
+          </li>
+          <li>
+            <p>Install the Firebase CLI.</p>
+            <div class="p5 border-light">npm install -g firebase-tools</div>
+          </li>
+          <li>
+            <p>Initialize your site</p>
+            <div class="p5 border-light">firebase init</div>
+          </li>
+          <li>
+            <p>On subsequent build and deploy, you do not need to do the above 2 steps. </p>
+          </li>
+          <li>
+            <p>Build your project</p>
+            <div class="p5 border-light">npm run www</div>
+          </li>
+          <li>
+            <p>Deploy your site. Upon completion, go to the URL provided.</p>
+            <div class="p5 border-light">firebase deploy</div>
+          </li>
+          <li>
+            <p><b>CONGRATULATION. You PWA is now LIVE. </b></p>
+          </li>
+        </ul>
+      </ion-card-content>
+    </ion-card>
+
+  </ion-row>
+
 </ion-content>

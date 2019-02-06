@@ -9,3 +9,56 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+// colors
+$color-standard: #007aff;
+$color-accent: #fc0606;
+
+$gray: #7f8c8d;
+$white: #ffffff;
+$light: #eceef6;
+$black: #000000;
+$dark: #20242d;
+$light-dark: #2c3e50;
+$stable: #abb0ba;
+$stable-darker: #98a0ad;
+
+// control 
+ion-card{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    max-width : 440px !important;
+    margin: 3 !important;
+    padding : 3px !important;
+}
+
+// control the side menu
+.split-pane-side {
+    min-width: 260px !important;
+    max-width: 300px !important;
+} 
+
+// padding
+.p5 {
+    padding: 5px !important;
+}
+
+.p10 {
+    padding: 10px !important;
+}
+  
+.p20 {
+    padding: 20px !important;
+}
+
+// borders
+.border-light {
+    border: 1px solid $light;
+  }
+  .border-dark {
+    border: 1px solid $dark;
+  }
+  .border-gray {
+    border: 1px solid $gray;
+  }

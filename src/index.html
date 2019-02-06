@@ -12,10 +12,26 @@
   <meta name="msapplication-tap-highlight" content="no" />
 
   <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
+  <link rel="manifest" href="manifest.json">
 
   <!-- add to homescreen for ios -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js').then(function (registration) {
+        console.log('Service Worker registration successful with scope: ', registration.scope);
+      }, function (err) {
+        console.log('Service Worker registration failed: ', err);
+      });
+
+      navigator.serviceWorker.ready.then(function (registration) {
+        console.log('Service Worker ready');
+      });
+    }
+  </script>
+
 </head>
 
 <body>
