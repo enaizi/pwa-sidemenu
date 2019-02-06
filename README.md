@@ -1,7 +1,8 @@
 # pwa-sidemenu
 Ionic 4 PWA template
 
-Based on Ionic 4 sidemenu template and configured as a PWA using <a href="https://developers.google.com/web/tools/workbox/">Workbox.</a>
+Based on Ionic 4 sidemenu template and configured as a PWA using <a href="https://developers.google.com/web/tools/workbox/">Workbox.</a><br>
+Google Workbox is a set of libraries and Node modules that make it easy to cache assets and take full advantage of features used to build Progressive Web Apps.
 
 <hr>
 
@@ -22,10 +23,13 @@ Based on Ionic 4 sidemenu template and configured as a PWA using <a href="https:
   <li>CRUD using Firestore</li>
   <li>External data using httpClient</li>
   <li>Camera </li>
-  <li>Geolocation using Capacitor</li>
-  <li>InAappBrowser using Capacitor</li>
-  <li>WebShare using Capacitor</li>
-  <li>Clipboard using Capacitor</li>
+</ul>
+We also added example on using <a href="https://capacitor.ionicframework.com/">Capacitor</a> with Ionic.
+<ul>
+  <li>Geolocation</li>
+  <li>InAappBrowser</li>
+  <li>WebShare</li>
+  <li>Clipboard</li>
 </ul>
 <h4>Get your Ionic 4 PWA development up to speed !!</h4>
 <p><a href="https://ionic-pwa-template.firebaseapp.com">https://ionic-pwa-template.firebaseapp.com</a></p>
