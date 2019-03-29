@@ -32,5 +32,5 @@ Capacitor is the Native Bridge for Cross-Platform Web Apps.
   <li>Clipboard</li>
 </ul>
 <h4>Get your Ionic 4 PWA development up to speed !!</h4>
-<p><a href="https://ionic-pwa-template.firebaseapp.com">https://ionic-pwa-template.firebaseapp.com</a></p>
+<p><a href="https://ionicpwa.com">https://ionicpwa.com</a></p>
 
